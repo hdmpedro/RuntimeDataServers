@@ -1,5 +1,0 @@
-com\workerserver\WorkerServerApplication.class
-com\workerserver\component\StartupRunner.class
-com\workerserver\controller\ProcessController.class
-com\workerserver\model\Carro.class
-com\workerserver\util\XmlUtil.class
