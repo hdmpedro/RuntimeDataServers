@@ -31,7 +31,7 @@ public class WorkerController {
     public boolean aguardarPeloWorkerServer(String url, int timeoutMillis) {
         long start = System.currentTimeMillis();
 
-        String healthCheckUrl = "http://localhost:6669/process/health"; // URL fixa para simplificar
+        String healthCheckUrl = "http://localhost:6669/process/health";
 
         while (System.currentTimeMillis() - start < timeoutMillis) {
             try {
